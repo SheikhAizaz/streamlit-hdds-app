@@ -6,7 +6,6 @@ import matplotlib
 matplotlib.use('Agg')
 from PIL import Image
 import streamlit.components.v1 as components
-st.beta_set_page_config(page_title='HDDS',page_icon='❤')
 def main():
     st.title("Heart Disease Detection System")
     menu = ["Home","Login"]
