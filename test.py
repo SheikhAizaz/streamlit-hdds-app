@@ -118,6 +118,7 @@ def main():
                         <html> 
                         <head> 
                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+                       <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
                        <title>Google Maps Multiple Markers</title> 
                        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
                        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.1.min.js"></script>
